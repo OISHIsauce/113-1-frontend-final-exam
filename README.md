@@ -2,8 +2,8 @@
 
 -   本專案在 [GitHub](https://github.com/OISHIsauce/113-1-frontend-final-exam.git)上供同學自行下載使用
 -   這個 repository 包含兩個專案：`empty project`，及`full project`
--   `empty project`是考試時會給同學的檔案，可以用它來練習
--   `full project`是助教寫的參考答案，如果練習時卡住可以隨時拿來參考
+-   `empty project`是考試時會給同學的專案，強烈建議用這個練習。
+-   `full project`是助教寫的參考答案，如果練習時卡住可以隨時拿來參考。
 -   正式考試環境包含：斷網、無 vscode 的擴充套件可用。若可能請以此基礎來練習。
 -   （如果你被當）下次修前端不會遇到這麼優秀又負責任的助教，請好好把握機會。
 
