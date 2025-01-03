@@ -1,8 +1,7 @@
 # 複習須知
 
 -   本專案在 [GitHub](https://github.com/OISHIsauce/113-1-frontend-final-exam.git)上供同學自行下載使用
--   `如何下載`：
--   ![image not found](HowToDownloadFromGitHub.png "如何下載")
+-   `如何下載`：![image not found](HowToDownloadFromGitHub.png "如何下載")
 -   這個 repository 包含兩個專案：`empty project`，及`full project`
 -   `empty project`是考試時會給同學的專案，強烈建議用這個練習。
 -   `full project`是助教寫的參考答案，如果練習時卡住可以隨時拿來參考。
