@@ -5,6 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "bun vite",
+        "jserv": "json-server --watch ./json_server/db.json --start --port 3000",
         "build": "vite build",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
@@ -21,6 +22,7 @@
         "eslint-plugin-react": "^7.33.2",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.4",
+        "json-server": "0.17.4",
         "vite": "^5.0.0"
     }
 }

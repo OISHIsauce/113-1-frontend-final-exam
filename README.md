@@ -1,14 +1,34 @@
 # 複習須知
 
--   本專案在 [GitHub](https://github.com/OISHIsauce/113-1-frontend-final-exam.git)上供同學自行下載使用
+-   本專案在 [GitHub](https://github.com/OISHIsauce/113-1-frontend-final-exam.git)上供同學自行下載使用。
 -   `如何下載`：![image not found](HowToDownloadFromGitHub.png "如何下載")
 -   這個 repository 包含兩個專案：`empty project`，及`full project`
 -   `empty project`是考試時會給同學的專案，強烈建議用這個練習。
 -   `full project`是助教寫的參考答案，如果練習時卡住可以隨時拿來參考。
 -   正式考試環境包含：斷網、無 vscode 的擴充套件可用。若可能請以此基礎來練習。
--   （如果你被當）下次修前端不會遇到這麼優秀又負責任的助教 *(微笑)*，請好好把握機會。
+-   有關 json_server（考試加分）的操作，請參閱下一段落。
+-   （如果你被當）下次修前端不會遇到這麼優秀又負責任的助教 _(微笑)_，請好好把握機會。
 
-> 除複習須知以外的內容會在正式考試重複出現
+# json_server
+
+> 請注意：據老師說法，錄製影片可能會用到 `rest client` 的 vscode 擴充套件來輔助開發，但是**本條目在老師錄製影片結束前就開始製作，full project 不會使用該技術**。
+
+-   對於`./json_server/db.json`，**建議不要更動這個資料夾和檔案名稱**，因為它與 `bun jserv` 息息相關
+-   如何啟動：新增一個終端機，在專案根目錄執行 `bun jserv` 就可以在 PORT 3000 開啟 json server
+
+    > 如果你的 PORT 3000 不能用，請至`./package.json`手動修改 jserv 指令，把 3000 改成你要用的埠號
+
+![image not found](HowToOpenNewTerminal.png "如何新增終端機")
+
+-   開啟之後，你可以對 `http://localhost:3000/todos` 發起 http request 了
+-   你可能已經注意到， `empty project` 內容已經被更改，考試時你要實作 `todoAPI`，並用它完善你的專案。
+    > 助教不確定老師預計錄製的影片內容。助教是根據往年老師的作法來操作的。
+-   http request 操作需要一點知識和經驗，以下相對路徑都是以 `full project`為例。
+-   `./src/data/todoAPI` 是進行 http request 的關鍵檔案，**剩餘內容請直接從中參考**。
+-   建議在 `Todo.jsx` 看看 `todoAPI` 怎麼呼叫，尤其是 useEffect 中如何使用非同步函式是往年很多同學不熟的點。
+-   雖然助教有進行單元測試，但如果你開啟 `full project` 的網頁發這些操作結果（新增、刪除、修改）並沒有被保留，請在 LINE 班群直接回報。
+
+> 從重要聲明開始的內容會在正式考試重複出現
 
 # 重要聲明
 
@@ -23,8 +43,8 @@
 
 # 考試說明
 
--   考試時間為13:00至17:00
--   按下「待辦事項」按鈕後顯示的畫面是原始分數的評分標準（預設為`/src/pages/Todo.jsx`）。
+-   考試時間為 13:00 至 17:00
+-   按下「待辦事項」按鈕後顯示的畫面是原始分數的評分標準（預設為`./src/pages/Todo.jsx`）。
 -   App.jsx, Home.jsx 皆為可參考的範例。
 -   你可以分別從本專案的 `/src/examples/`裡的`01.png`、`02.png`、`03.png` 看到三大題型的題目圖例。
 -   **麻煩上傳檔案的時候遵循以下步驟：**
