@@ -8,7 +8,7 @@
 -   正式考試環境包含：斷網、無 vscode 的擴充套件可用。若可能請以此基礎來練習。
 -   有關 json_server（考試加分）的操作，請參閱下一段落。
 -   （如果同學被當）下次修前端不會遇到這麼優秀又負責任的助教 _(微笑)_，請好好把握機會。
--   有緊急問題請馬上在 Line 上與助教反映，助教會盡可能的處理。 credit: 感謝同學反應 node_module 的問題。
+-   有緊急問題請馬上在 Line 上與助教反映，助教會盡可能的處理。 special thanks: 感謝同學反應 node_module 的問題。
 -   承上，其他問題，請盡量在 [GitHub 的 Issues](https://github.com/OISHIsauce/113-1-frontend-final-exam/issues) 提出。
 
 # json_server
